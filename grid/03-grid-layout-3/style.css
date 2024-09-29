@@ -30,6 +30,7 @@ ul {
 .header {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  align-items: center;
   background-color: #393f4d;
   grid-column: 1 / span 2;
 }
@@ -73,6 +74,11 @@ ul {
 
 .nav {
   background-color: #C50208;
+}
+
+.nav > ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .nav ul li {
